@@ -54,4 +54,4 @@ jobs:
         context: .
         file: Dockerfile
         push: true
-        tags: ghcr.io/DarlanDelmondesSchool/aula-07-governanca:${{ github.event.pull_request.head.sha || github.sha }}
+        tags: ghcr.io/darlandelmondesschool/aula-07-governanca:${{ github.event.pull_request.head.sha || github.sha }}
